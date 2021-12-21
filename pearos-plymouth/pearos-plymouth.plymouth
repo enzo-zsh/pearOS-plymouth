@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=pearos-plymouth
+Description=Apple Mac Plymouth theme by - Navis Michael Bearly J, forked by Enzo-zsh
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/pearos-plymouth
+ScriptFile=/usr/share/plymouth/themes/pearos-plymouth/pearos-plymouth.script
