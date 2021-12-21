@@ -9,6 +9,9 @@ Forked from : https://github.com/navisjayaseelan/apple-mac-plymouth
 
 ## How to install
 
+   Lancez enfin la commande suivante dans un terminal :
+
+ 'sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/le_nom_de_votre_theme  /le_nom_de_votre_theme.plymouth  100'
 
    Pour choisir un thème,
 
