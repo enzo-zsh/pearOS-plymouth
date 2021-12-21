@@ -21,7 +21,7 @@ Forked from : https://github.com/navisjayaseelan/apple-mac-plymouth
 
    type :
 
-    'sudo update-alternatives --config default.plymouth'
+    `sudo update-alternatives --config default.plymouth`
 
 You then have a screen like this :
 
