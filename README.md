@@ -9,17 +9,21 @@ Forked from : https://github.com/navisjayaseelan/apple-mac-plymouth
 
 ## How to install
 
-   Lancez enfin la commande suivante dans un terminal :
+- Step 1
 
- 'sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/le_nom_de_votre_theme  /le_nom_de_votre_theme.plymouth  100'
+   Finally, run the following command in a terminal :
 
-   Pour choisir un thème,
+ `sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/le_nom_de_votre_theme  /le_nom_de_votre_theme.plymouth  100`
+ 
+ - Step 2 
 
-   tapez :
+   To choose a theme,
+
+   type :
 
     'sudo update-alternatives --config default.plymouth'
 
-Vous avez alors un écran de ce type :
+You then have a screen like this :
 
      'Il existe 6 choix pour l'alternative default.plymouth (qui fournit /usr/share/plymouth/themes/default.plymouth).
      
@@ -33,12 +37,15 @@ Vous avez alors un écran de ce type :
       5            /usr/share/plymouth/themes/spinfinity/spinfinity.plymouth     10        mode manuel
       6            /usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.plymouth   100       mode manuel'
 
-Appuyez sur <Entrée> pour conserver la valeur par défaut[*] ou choisissez le numéro sélectionné :
+Press <Enter> to retain the default value[*] or choose the selected number :
 
-   Faites votre choix en tapant un numéro au clavier.
-   Pour prendre en compte les changements :
+   Make your choice by typing a number on the keyboard.
+   
+- Step 3
 
-    sudo update-initramfs -u
+   To take effect the changes :
+
+    `sudo update-initramfs -u`
 
    Reboot.
 
