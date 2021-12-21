@@ -45,7 +45,7 @@ Press <Enter> to retain the default value[*] or choose the selected number :
 
    To take effect the changes :
 
-    `sudo update-initramfs -u`
+ `sudo update-initramfs -u`
 
    Reboot.
 
