@@ -13,7 +13,7 @@ Forked from : https://github.com/navisjayaseelan/apple-mac-plymouth
 
    Finally, run the following command in a terminal :
 
- `sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/le_nom_de_votre_theme  /le_nom_de_votre_theme.plymouth  100`
+ `sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/your_plymouth-name/your_plymouth-name.plymouth  100`
  
  - Step 2 
 
