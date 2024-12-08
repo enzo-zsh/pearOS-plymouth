@@ -51,3 +51,11 @@ Press <Enter> to retain the default value[*] or choose the selected number :
 
 Enjoy !
 
+## License :
+
+All right go to : https://github.com/Pear-Project and https://github.com/alxb421
+
+
+
+
+
